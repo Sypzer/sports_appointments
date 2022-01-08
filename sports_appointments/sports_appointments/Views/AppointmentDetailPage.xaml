@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="sports_appointments.Views.AppointmentDetailPage"
+             Title="{Binding Title}">
+
+    <StackLayout Spacing="20" Padding="15">
+        <Label Text="Text:" FontSize="Medium" />
+        <Label Text="{Binding AppointmentId}" FontSize="Small"/>
+        <Label Text="Date:" FontSize="Medium" />
+        <Label Text="{Binding Date}" FontSize="Small"/>
+        <Label Text="Starting:" FontSize="Small"/>
+        <Label Text="{Binding Start}" FontSize="Small"/>
+        <Label Text="Ending" FontSize="Small"/>
+        <Label Text="{Binding End}" FontSize="Small"/>
+        <Label Text="Court:" FontSize="Small"/>
+        <Label Text="{Binding CourtId}" FontSize="Small"/>
+        <Label Text="User" FontSize="Small"/>
+        <Label Text="{Binding UserId}" FontSize="Small"/>
+    </StackLayout>
+
+</ContentPage>
